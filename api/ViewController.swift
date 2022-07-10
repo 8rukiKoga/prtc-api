@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = "https://api.github.com/search/repositories?q=swiftin:name&sort=stars=0"
+        let url = "https://api.sunrise-sunset.org/json?date=2020-01-01&1at=-74.0060&lng=40.7128&formatted=0"
         getData(from: url)
     }
     
